@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f2a54e1e02697454c89c7e5cf59ae49e
+timeCreated: 1533623528
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BrookeShappell8
+  fontNames:
+  - BrookeShappell8
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

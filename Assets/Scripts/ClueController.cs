@@ -9,9 +9,12 @@ public class ClueController : MonoBehaviour {
 	public string clueText;
 	public bool dailyDouble;
 
+	public Sprite blank;
+	public bool picked;
+
 	// Use this for initialization
 	void Start () {
-		
+		picked = false;
 	}
 	
 	// Update is called once per frame
@@ -33,8 +36,12 @@ public class ClueController : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		//Debug.Log ("Mouse Down");
-		Debug.Log ("Clue value: " + clueValue);
-		PlayerPrefs.SetInt ("currentVal", clueValue);
+		if(!picked){
+			Debug.Log ("Mouse Down");
+			picked = true;
+			Debug.Log ("Clue value: " + clueValue);
+			PlayerPrefs.SetInt ("currentVal", clueValue);
+			this.GetComponent<SpriteRenderer> ().sprite = blank;
+		}
 	}
 }

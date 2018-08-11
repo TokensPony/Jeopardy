@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1438185486685264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.965, z: 0}
+  m_LocalPosition: {x: 0, y: -2.9359999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4817340174631064}
@@ -235,8 +235,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1364880809434178}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.9799995, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4719793706023280}
@@ -255,7 +255,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1793329458358936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.4990001, z: 0}
+  m_LocalPosition: {x: 0, y: -1.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4817340174631064}
@@ -482,6 +482,8 @@ MonoBehaviour:
   dailyDouble: 0
   blank: {fileID: 21300000, guid: 48c8690af4a413042b6c695758289665, type: 3}
   picked: 0
+  clueScreen: {fileID: 0}
+  board: {fileID: 0}
 --- !u!114 &114201021596711812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -498,6 +500,8 @@ MonoBehaviour:
   dailyDouble: 0
   blank: {fileID: 21300000, guid: 48c8690af4a413042b6c695758289665, type: 3}
   picked: 0
+  clueScreen: {fileID: 0}
+  board: {fileID: 0}
 --- !u!114 &114237458432786602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -514,6 +518,8 @@ MonoBehaviour:
   dailyDouble: 0
   blank: {fileID: 21300000, guid: 48c8690af4a413042b6c695758289665, type: 3}
   picked: 0
+  clueScreen: {fileID: 0}
+  board: {fileID: 0}
 --- !u!114 &114743789699323880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -530,6 +536,8 @@ MonoBehaviour:
   dailyDouble: 0
   blank: {fileID: 21300000, guid: 48c8690af4a413042b6c695758289665, type: 3}
   picked: 0
+  clueScreen: {fileID: 0}
+  board: {fileID: 0}
 --- !u!114 &114962716302436426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -546,6 +554,8 @@ MonoBehaviour:
   dailyDouble: 0
   blank: {fileID: 21300000, guid: 48c8690af4a413042b6c695758289665, type: 3}
   picked: 0
+  clueScreen: {fileID: 0}
+  board: {fileID: 0}
 --- !u!212 &212054582893310388
 SpriteRenderer:
   m_ObjectHideFlags: 1

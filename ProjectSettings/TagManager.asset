@@ -8,6 +8,8 @@ TagManager:
   - 2
   - 1
   - ClueScreen
+  - ClueText
+  - board
   layers:
   - Default
   - TransparentFX

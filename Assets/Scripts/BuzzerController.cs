@@ -8,11 +8,15 @@ public class BuzzerController : MonoBehaviour {
 
 	public GameObject inControl;
 	public bool playerActive;
+	public GameObject gameboard;
+	public GameObject clueScreen;
 
 	// Use this for initialization
 	void Start () {
 		inControl = null;
 		playerActive = false;
+		gameboard = GameObject.FindGameObjectWithTag ("board");
+		clueScreen = GameObject.FindGameObjectWithTag ("ClueText");
 	}
 	
 	// Update is called once per frame
@@ -57,6 +61,8 @@ public class BuzzerController : MonoBehaviour {
 				inControl.GetComponent<PodiumController> ().giveScore (PlayerPrefs.GetInt("currentVal"));
 				resetAll ();
 				playerActive = false;
+				gameboard.SetActive (true);
+				clueScreen.SetActive (false);
 			} else {
 				Debug.Log ("No Player is in control");
 			}

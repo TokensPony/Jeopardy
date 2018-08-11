@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\BuzzerController.cs" />
      <Compile Include="Assets\Scripts\ClickManager.cs" />
      <Compile Include="Assets\Scripts\ClueController.cs" />
+     <Compile Include="Assets\Scripts\ClueScreen.cs" />
      <Compile Include="Assets\Scripts\PodiumController.cs" />
      <Compile Include="Assets\Scripts\TimerController.cs" />
  <Reference Include="UnityEngine.UI">

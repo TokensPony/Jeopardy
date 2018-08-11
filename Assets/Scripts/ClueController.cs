@@ -12,9 +12,15 @@ public class ClueController : MonoBehaviour {
 	public Sprite blank;
 	public bool picked;
 
+	public GameObject clueScreen;
+	public GameObject board;
+
 	// Use this for initialization
 	void Start () {
 		picked = false;
+		clueScreen = GameObject.FindGameObjectWithTag ("ClueText");
+		board = this.transform.root.gameObject;
+		//clueScreen.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -42,6 +48,9 @@ public class ClueController : MonoBehaviour {
 			Debug.Log ("Clue value: " + clueValue);
 			PlayerPrefs.SetInt ("currentVal", clueValue);
 			this.GetComponent<SpriteRenderer> ().sprite = blank;
+			//clueScreen.GetComponent<SpriteRenderer> ().sortingOrder = 1;
+			clueScreen.SetActive(true);
+			board.SetActive (false);
 		}
 	}
 }

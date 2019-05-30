@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BuzzerController.cs" />
+     <Compile Include="Assets\Scripts\CategoryController.cs" />
      <Compile Include="Assets\Scripts\ClickManager.cs" />
      <Compile Include="Assets\Scripts\ClueController.cs" />
      <Compile Include="Assets\Scripts\ClueScreen.cs" />

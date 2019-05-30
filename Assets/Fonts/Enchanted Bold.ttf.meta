@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9f9e5836ceaec0144bf4e3c935db06c4
+timeCreated: 1534040085
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Enchanted
+  fontNames:
+  - Enchanted
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8f0f68cd0cf75fa478db1ae7ceabeecb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

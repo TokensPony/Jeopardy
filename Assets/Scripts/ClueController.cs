@@ -17,6 +17,7 @@ public class ClueController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		clueText = clueText.Replace ("_", "\n");
 		picked = false;
 		clueScreen = GameObject.FindGameObjectWithTag ("ClueText");
 		board = this.transform.root.gameObject;
@@ -49,6 +50,7 @@ public class ClueController : MonoBehaviour {
 			PlayerPrefs.SetInt ("currentVal", clueValue);
 			this.GetComponent<SpriteRenderer> ().sprite = blank;
 			//clueScreen.GetComponent<SpriteRenderer> ().sortingOrder = 1;
+			clueScreen.GetComponentInChildren<TextMesh>().text = clueText;
 			clueScreen.SetActive(true);
 			board.SetActive (false);
 		}

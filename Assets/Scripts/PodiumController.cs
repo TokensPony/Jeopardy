@@ -41,10 +41,10 @@ public class PodiumController : MonoBehaviour {
 	public void giveScore(int value){
 		score += value;
 		if (score >= 0) {
-			scoreMesh.text = "$" + score;
+			scoreMesh.text = "$" + score.ToString("N0");
 			scoreMesh.color = Color.white;
 		} else {
-			scoreMesh.text = "-$" + Mathf.Abs (score);
+			scoreMesh.text = "-$" + Mathf.Abs (score).ToString("N0");
 			scoreMesh.color = Color.red;
 		}
 	}
